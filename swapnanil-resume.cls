@@ -1,5 +1,5 @@
 % Intro Options
-\ProvidesClass{swapnanil-resume}[2023/12/15 CV class]
+\ProvidesClass{swapnanil-resume}[2024/05/25 CV class]
 \NeedsTeXFormat{LaTeX2e}
 \DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
