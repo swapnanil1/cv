@@ -1,12 +1,18 @@
 \documentclass[]{swapnanil-resume}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{eso-pic}
 \pagestyle{fancy}
 \fancyhf{}
 
 
 \begin{document}
-
+\AddToShipoutPictureBG*{%
+    \begin{tikzpicture}[remember picture, overlay]
+        \node[anchor=north east, inner sep=0] at (current page.north east) {\includegraphics[width=2.3cm]{pic.jpg}};
+    \end{tikzpicture}%
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     LAST UPDATED DATE
@@ -19,9 +25,11 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \namesection{Swapnanil}{Chakraborty}{ \urlstyle{same}
-\href{mailto:swapXXXX@gmail.com}{swapXXXX@gmail.com} | +91767901XXXX | Kolkata
+\href{mailto:swapnanil2@proton.me}{swapnanil2@proton.me} | +917679015958 | Kolkata
 }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN ONE
@@ -39,7 +47,7 @@
 \subsection{University of Engineering and Management}
 \descript{B.Tech in Computer Science}
 \location{May 2020 | Kolkata, WB}
-CGPA(Upto 6th semester): 8.53/10
+CGPA(Upto 7th semester): 8.35/10
 
 \sectionsep
 
@@ -91,10 +99,10 @@ Linux \& CLI
 \section{Skills}
 \subsection{Programming}
 \descript{Experienced:}
-Python \textbullet{}  JAVA\\
-HTML \textbullet{} CSS \textbullet{} Javascript \\
+Java \textbullet{} C++ \textbullet{} MySQL 
+\\
 \descript{Familiar:}
-C \textbullet{} C++  \\
+HTML \textbullet{} CSS \textbullet{} Javascript \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -185,5 +193,4 @@ The 'AWS Cloud Technical Essentials' course on Coursera has provided me with fou
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
-
 
